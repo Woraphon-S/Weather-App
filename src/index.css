@@ -8,7 +8,13 @@
 }
 
 .app {
-  min-height: 100vh;
+  height: 100dvh;
   display: grid;
+}
+
+body,
+html {
+  height: 100%;
   background: #090911;
+  min-width: 400px;
 }
